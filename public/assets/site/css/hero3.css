@@ -1,0 +1,68 @@
+
+.hero3 {
+   width: 100%;
+   height: 700px;
+   position: relative;
+   display: flex;
+   align-items: center;
+}
+
+.hero3 .content {
+
+   font-family: 'Poppins', sans-serif;
+   color: black;
+   position: absolute;
+   bottom: 5%;
+   right: 10%;
+   z-index: 2;
+}
+
+.hero3 .content h2 {
+   font-size: 80px; 
+   line-height: 90px;
+   margin: 0;   
+}
+
+.hero3 .content h3 {
+   font-size: 30px;  
+   margin: 0;
+   width: 600px;
+   word-wrap: break-word;
+}
+
+.hero3 .content button {
+   background-color: red;
+   border: 1px solid white;
+   color: white;
+   padding: 12px 20px;
+   font-family: poppins;
+   font-size: 16px;
+   margin-top: 20px;
+   min-width: 200px;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+.hero3 .content button:hover {
+   background-color: white;
+   color: #ab4ad6;
+   transition: 0.5s;
+  
+}
+
+
+.hero3 img.background {
+   position: absolute;
+   bottom: 0;
+   left: 0%;
+   z-index: 2;
+   width: 600px;
+}
+
+.hero3 img.about {
+   position: absolute;
+   bottom: 5%;
+   left: 5%;
+   z-index: 2;
+   width: 500px;
+}
