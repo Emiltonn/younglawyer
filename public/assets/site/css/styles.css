@@ -1,142 +1,59 @@
-@import "hero3.css";
-
-html, body {
-   margin: 0;
-   padding: 0;
-   text-align: center;
+@import "colors.css";
+@import "home.css";
+@import "about.css";
+@import "social_links.css";
+@import "partners.css";
+@import "footer.css";
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 body {
-   padding-bottom: 50px;
-   background-color: white;
-   min-height: 1600px;
+    padding-bottom: 5px;
+    background-color: white;
+    min-height: 1600px;
 }
+
 .page-container {
-   padding: 20px 10px;
-   width: 100%;
-   max-width: 650px;
-   margin: auto;
-   text-align: left;
-   background-color: white;
-   
+    padding: 20px 10px;
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    text-align: left;
+    background-color: white;
 }
 
-.parallax {
-   
-}
-
-.hero2 {
-   width: 100%;
-   height: 700px;
-   position: relative;
-   display: flex;
-   align-items: center;
-   /* -moz-transform: skew(-45deg);
-   -webkit-transform: skew(-45deg);
-   transform: skew(-45deg); */
-   /* position: absolute;
-   top: 2000%;
-   left: 10%; */
-
-   
-}
-/* BACKGROUND COLOR*/
-.green {
-   background-color: #4ad69a;
-}
-
-.white {
-   background-color: #FFF;
-}
-
-.purple {
-   background-color: #7e7a7a;
-}
-
-.red {
-   background-color: #d8344c;
-}
-
-.hero2 .content {
-
-   font-family: 'Poppins', sans-serif;
-   color: black;
-   text-align: left;
-   margin-left: 10%;
-}
-
-.hero2 .content h2 {
-   font-size: 80px; 
-   line-height: 90px;
-   margin: 0;   
-}
-
-.hero2 .content h3 {
-   font-size: 40px;  
-   margin: 0;
-   width: 600px;
-   word-wrap: break-word;
-}
-
-.hero2 .content button {
-   background-color: red;
-   border: 1px solid white;
-   color: white;
-   padding: 12px 20px;
-   font-family: poppins;
-   font-size: 16px;
-   margin-top: 20px;
-   min-width: 200px;
-   transition: 0.5s;
-   cursor: pointer;
-}
-
-.hero2 .content button:hover {
-   background-color: white;
-   color: #ab4ad6;
-   transition: 0.5s;
-  
-}
-
-
-
-.hero2 img.home {
-   position: absolute;
-   bottom: 5%;
-   right: 10%;
-   z-index: 2;
-   width: 500px;
-}
-
-
+.parallax {}
 
 .rellax {
-   font-family: 'Poppins', sans-serif;
-   font-weight: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
 }
+
 .page-container h2 {
-   font-size: 36px;
-   text-transform: uppercase;
-   font-family: 'Poppins', sans-serif;
-   font-weight: 500px;
-   margin: 0 0 20px 0;
-   color: #222222;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+    margin: 0 0 20px 0;
+    color: #222222;
 }
 
 .page-container p {
-   font-family: 'Lato', sans-serif;
-   letter-spacing: 0.5px;
-   line-height: 26px;
-   font-size: 18px;
-   margin: auto;
-   color: #222222;
-   
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    font-size: 18px;
+    margin: auto;
+    color: #222222;
 }
 
 .page-container p:not(:last-of-type) {
-   margin-bottom: 24px;
+    margin-bottom: 24px;
 }
-
 
 
 /* **********************************************************************************************
@@ -144,14 +61,11 @@ body {
 ********************************************************************************************** */
 
 
-
 /* Small Screens ****************************************************************************
 /* max-width 640px *********************************************************************/
 
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 40em) {}
 
-
-}   
 
 /* End of small Screens
    
@@ -160,10 +74,8 @@ body {
 /* Medium Screens ***************************************************************************
 /* min-width 641px and max-width 1023px ************************************************/
 
-@media only screen and (min-width: 40.063em) and (max-width: 63.938em) {
+@media only screen and (min-width: 40.063em) and (max-width: 63.938em) {}
 
-
-}
 
 /* End of Medium Screens
    
@@ -173,14 +85,12 @@ body {
 /* Large Screens ****************************************************************************
 /* min-width 1024px and max-width 1440px ***********************************************/
 
-@media only screen and (min-width: 64em) and (max-width: 90em) { 
-
-   .page-container {
-      width: 1024px;
-      
-   }
-      
+@media only screen and (min-width: 64em) and (max-width: 90em) {
+    .page-container {
+        width: 1024px;
+    }
 }
+
 
 /* End of Large Screens
    
@@ -190,13 +100,10 @@ body {
 /* min-width 1441px ********************************************************************/
 
 @media only screen and (min-width: 90.063em) {
-      
-   .page-container {
-      width: 1320px;
-   }
-      
-            
+    .page-container {
+        width: 1320px;
+    }
 }
 
-/* End of Extra Large Screens
 
+/* End of Extra Large Screens

@@ -1,0 +1,78 @@
+.social_links {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.social_links .content {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    position: absolute;
+    bottom: 9%;
+    left: 7%;
+    z-index: 2;
+}
+
+.social_links .content h2 {
+    font-size: 80px;
+    line-height: 90px;
+    margin: 0;
+}
+
+.social_links .content h3 {
+    font-size: 30px;
+    margin: 0;
+    width: 600px;
+    word-wrap: break-word;
+}
+
+.social_links .content button {
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+    padding: 12px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    margin-top: 20px;
+    min-width: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.social_links .content button:hover {
+    background-color: white;
+    color: #ab4ad6;
+    transition: 0.5s;
+}
+
+.social_links img.instagram {
+    position: absolute;
+    bottom: 40%;
+    left: 30%;
+    z-index: 2;
+    width: 10%;
+}
+
+.social_links img.github-icon {
+    position: absolute;
+    bottom: 40%;
+    left: 7%;
+    z-index: 2;
+    width: 20%;
+}
+
+.social_links img.background {
+    position: absolute;
+    right: 0%;
+    z-index: 2;
+    width: 50%;
+}
+
+.social_links img.social_media {
+    position: absolute;
+    right: 0%;
+    z-index: 2;
+    width: 40%;
+}
